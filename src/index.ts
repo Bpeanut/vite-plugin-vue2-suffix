@@ -1,10 +1,10 @@
 import fs from "fs";
+import { Plugin } from "rollup";
 import * as TOOLS from "./utils";
 
-function VitePluginVue2Suffix() {
+function VitePluginVue2Suffix(): Plugin {
   return {
     name: "vite-plugin-vue2-suffix",
-    apply: "serve",
     transform(code: string, id: string) {
       /**
        * @param {String} filePathRaw 例如：'/Users/ex-liangyongpeng001/Documents/lbdp_ims_frontend_vite/src/views/generalManager/index'

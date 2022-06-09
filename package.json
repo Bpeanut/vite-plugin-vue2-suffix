@@ -1,9 +1,10 @@
 {
-  "name": "vite-plugin-vue2-suffix",
-  "version": "1.0.0",
+  "name": "vite-plugin-vue2-suffix-ts",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "build": "rollup -c"
   },

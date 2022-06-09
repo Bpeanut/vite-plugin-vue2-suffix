@@ -3,6 +3,8 @@
     "compilerOptions": {
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
+        "declaration": true,
+        "declarationDir": "./dist/types",
         "lib": ["es6"],
         "module": "es6",
         "moduleResolution": "node",
@@ -16,5 +18,5 @@
         "target": "es2017"
     },
     "exclude": ["dist", "node_modules", "test/types"],
-    "include": ["src/**/*", "types/**/*"]
+    "include": ["src/**/*", "types/**/*", "dist/types/utils.d.ts", "dist/types/index.d.ts"]
 }
